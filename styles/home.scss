@@ -1,0 +1,55 @@
+@import "./variables.scss";
+.hm-header {
+    background: rgb(255, 152, 0);
+    background: radial-gradient(circle, #ffe0b2, #ffefda 100%);
+    border-radius: 0 0 24px 24px;
+    display: flex;
+    flex-direction: row;
+    height: 107px;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+
+    .logo {
+        margin: 55px 0 0 16px;
+    }
+    .profile {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        height: 36px;
+        margin: 55px 16px 0 0;
+
+        &-details {
+            text-align: right;
+
+            &__name {
+                color: $black;
+                font-size: 0.75rem;
+                font-weight: 600;
+                line-height: 1rem;
+            }
+            &__message {
+                color: $gray;
+                font-size: 0.75rem;
+                line-height: 1rem;
+            }
+        }
+        &-image {
+            border: #ff9800 1px solid;
+            border-radius: 18px;
+            display: flex;
+            height: 36px;
+            margin-left: 16px;
+            overflow: hidden;
+            width: 36px;
+
+            img {
+                border: 2px solid $white;
+                border-radius: 17px;
+                object-fit: contain;
+            }
+        }
+    }
+}
