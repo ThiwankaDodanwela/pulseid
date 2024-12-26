@@ -34,3 +34,68 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+Installed Plugins
+
+1. Swiper Slider
+
+Description: A modern and lightweight JavaScript library for creating touch-enabled sliders and carousels.
+
+Usage: Used to implement responsive sliders with smooth transitions and touch gestures.
+
+Documentation: Swiper.js Official Documentation
+
+npm install swiper
+
+2. Normalize.css
+
+Description: A CSS library that makes browsers render all elements more consistently and in line with modern standards.
+
+Usage: Applied to reset and standardize browser default styles for better cross-browser compatibility.
+
+Documentation: Normalize.css GitHub
+
+npm i normalize.css
+
+3. Sass
+
+Description: A powerful CSS preprocessor that extends CSS with features like variables, nested rules, mixins, and more.
+
+Usage: Utilized for writing maintainable and scalable stylesheets with advanced features.
+
+Documentation: Sass Official Documentation
+
+npm install sass
+
+Getting Started
+
+Prerequisites
+
+Node.js
+
+npm (Node Package Manager)
+
+Installation
+
+Clone the repository:
+
+https://github.com/ThiwankaDodanwela/pulseid.git
+
+Navigate to the project directory:
+
+cd pulseid
+
+Install dependencies:
+
+npm install
+
+Development Workflow
+
+Build the work
+
+npm run build
+
+Start the development server:
+
+npm run dev
+
